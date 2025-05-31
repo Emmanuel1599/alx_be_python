@@ -3,6 +3,7 @@ num2 = float(input("Enter the second number: "))
 
 operations = input("Choose the operation (+, -, *, /): ").strip()
 
+
 match operations:
     case "+":
         result = num1 + num2
